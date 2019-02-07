@@ -11,7 +11,7 @@ del os.link
 #    with open('README.rst') as f:
 #        return f.read()
 
-setup(name='diaryFile',
+setup(name='diary-file',
       version='0.1',
       description='Diary Framework for log files',
       author='Raghunandan',
@@ -19,7 +19,7 @@ setup(name='diaryFile',
       packages=find_packages(),
       entry_points={
           'console_scripts': [
-              'diaryFile = diary-file.__main__:main'
+              'diaryFile = diaryFile.__main__:main'
           ]
       },
       include_package_data=True,
